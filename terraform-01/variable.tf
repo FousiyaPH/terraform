@@ -5,3 +5,7 @@ variable "ec2_instance_type" {
 variable "instance_name" {
   type = number
 }
+
+variable "image_id" {
+  type = string
+}
