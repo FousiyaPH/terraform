@@ -1,4 +1,7 @@
 variable "ec2_instance_type" {
-    default = "t2.nano"
-    
+  type    = string
+  default = "t2.micro"
+}
+variable "instance_name" {
+  type = number
 }
